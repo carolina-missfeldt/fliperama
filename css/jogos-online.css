@@ -1,0 +1,428 @@
+header {
+	background-image: url(../img/bg-jogos-online);
+}
+
+header:hover {
+	background-image: url(../img/bg-meninas);
+}
+
+#face {
+	margin-left: -5px;
+	
+}
+
+#voce-esta-aqui {
+	margin-top: 20px;
+	padding-left: 20px;
+	font-size: 14px;
+	
+}
+
+#voce-esta-aqui li, a {
+	color: #6c6c6c;
+	display: inline-block;
+
+}
+
+#voce-esta-aqui li:first-child {
+	font-weight: 400;
+
+}
+
+#voce-esta-aqui li:last-child{
+	color: #ff6100;
+}
+
+.linha-de-divisao {
+	margin-top: -5px;
+}
+
+
+.jogos-online {
+	width: auto;
+	height: 320px;
+	margin-bottom: 40px;
+
+}
+
+.jogos-online-caixa {
+	width: 960px;
+	height: 240px;
+	display: table;
+	background: rgba(255, 128, 49, 0.03);
+	border: 1px solid rgba(255, 128, 49, 0.03);
+	margin: auto;
+	margin-bottom: 20px;
+	padding-top: 30px;
+
+}
+
+
+.categorias-titulo {
+	width: auto;
+	margin-bottom: 5px;
+}
+
+#titulo-1 {
+	width: 960px;
+	margin: 10px auto;
+}
+.menu-jogos{
+	width: 650px;
+	height: 230px;
+	margin-top: 20px;
+}
+
+.menu-jogos-lista {
+	width: 600px;
+	height: 230px;
+	margin-left: 10px;
+
+}
+
+/* plugin */
+
+	.slick-list {
+		width: 585px;
+		margin: 20px auto;
+	}
+
+	.toolbar{
+		height: auto;
+		width: 600px;
+	}
+
+
+
+
+	.slick-next.slick-arrow {
+		background-color: transparent;
+		background-image: url(../img/>.png);
+		background-repeat: no-repeat;
+		text-indent: -2999px;
+		width: 20px;
+		height: 40px;
+		border: none;
+		position: absolute;
+		right: 10px;
+		top: 100px;
+		outline: 0;
+	
+
+	}
+
+	.slick-prev.slick-arrow{
+		background-color: transparent;
+		background-image: url(../img/<.png);
+		background-repeat: no-repeat;
+		text-indent: -2999px;
+		width: 20px;
+		height: 40px;
+		border: none;
+		position: absolute;
+		left: 17px;
+		top: 100px;
+		outline: 0;
+		
+
+	}
+
+.selecione {
+	width: 600px;
+	height: 30px;
+	margin-left: 50px;
+	background-image: url(../img/linha-de-separacao-menor.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	margin-top: 35px;
+
+}
+
+.selecione h3 {
+	font-size: 15px;
+	font-weight: 400;
+	margin-left: 150px;
+}
+
+
+.menu-jogos a {
+	width: 134px;
+	height: 66px;
+	margin: 3px;
+	vertical-align: top;
+}
+
+.menu-jogos li {
+	width: 134px;
+	height: 66px;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding: 4px 0;
+}
+
+
+.menu-jogos li p {
+	font-weight: 400;
+	margin-left: 40px;
+	font-size: 15px;
+	color: #333333;
+	margin-top: 15px;
+}
+
+.menu-jogos li p:hover{
+	color: #ff6100;
+}
+
+/*background li (menu-jogos)*/
+#linha-um {
+	background-image: url(../img/bt-acao-aventura.png);
+}
+
+#dois {
+	background-image: url(../img/bt-tiro.png);
+}
+
+#tres {
+	background-image: url(../img/bt-estrategia.png);
+}
+
+#quatro {
+	background-image: url(../img/bt-raciocinio.png);
+}
+
+#cinco {
+	background-image: url(../img/bt-esporte.png);
+}
+
+#seis {
+	background-image: url(../img/bt-carro.png);
+}
+
+#linha-sete {
+	background-image: url(../img/bt-meninas.png);
+}
+
+#oito {
+	background-image: url(../img/bt-aventura.png);
+}
+
+#nove {
+	background-image: url(../img/bt-fliperama-acao.png);
+}
+
+#dez {
+	background-image: url(../img/bt-mahjong.png);
+}
+
+#onze {
+	background-image: url(../img/bt-carta-tabuleio.png);
+}
+
+#doze {
+	background-image: url(../img/bt-infantis.png);
+}
+
+
+#publicidade {
+	margin-top: 0;
+	margin-bottom: 20px;
+	
+}
+
+.categorias {
+	width: 980px;
+	height: auto;
+	margin-bottom: 20px;
+	display: table;
+}
+
+.linhas-de-divisao {
+	width: 940px;
+	margin: auto;
+}
+
+.botao-ver-todos{
+	margin-right: 0;
+
+}
+
+.conteudo-esquerdo {
+	width: 490px;
+	margin-top: 10px;
+	margin-left: -20px;
+}
+
+
+
+.conteudo-esquerdo .categorias-titulo {
+	width: 450px;
+	margin: auto;
+	
+}
+
+.conteudo-esquerdo .lista-conteudo-esquerdo {
+	margin-left: 4px;
+}
+
+.conteudo-esquerdo .lista-conteudo-esquerdo li {
+	margin-left: 5px;
+}
+
+.conteudo-esquerdo p{
+	margin-top: -5px;
+}
+
+.lista-conteudo-esquerdo h2 {
+	font-size: 16px;
+	color: #ff6100;
+	font-weight: 400;
+	text-transform: capitalize;
+	margin: -8px 8px 8px 10px;
+	height: 32px;
+}
+
+.conteudo-esquerdo .like-categorias li {
+	margin-left: 0;
+}
+
+
+.conteudo-direito2 {
+	width: 460px;
+	float:right;
+	color: #000;
+	font-size: 14px;
+	padding-right: 30px;
+	margin-top: -301px;
+	margin-right: -15px;
+}
+
+
+
+.conteudo-direito2 .lista-conteudo-esquerdo li{
+	width: 160px;
+	height: 264px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.lista-conteudo-esquerdo li:hover {
+	background-image: url(../img/bg-li.png);
+	
+	cursor: pointer;
+}
+
+/*.conteudo-direito2 .categorias-titulo{
+	width: 460px;
+	padding-left: -10px;
+	font-size: 16px;
+}*/
+
+.conteudo-direito2 .categorias-titulo {
+	width: 440px;
+	margin: auto;
+}
+
+
+
+.conteudo-direito2 img {
+	width: 135px;
+	margin: 12px;
+	box-shadow: 0px 3px 2px #757575;
+}
+
+
+
+
+.conteudo-direito2 .lista-conteudo-esquerdo p{
+	margin: -7px 10px;
+
+}
+
+.lista-conteudo-esquerdo a {
+	width: 130px;
+	padding: 0 ;
+	vertical-align: top;
+}
+
+.conteudo-direito2 .lista-conteudo-esquerdo h2 {
+	margin-top: -19px;
+}
+
+.conteudo-direito2 .like-categorias li{
+	width: 15px;
+	height: 15px;
+	margin-top: -12px;
+	
+}
+
+.like-categorias li:hover{
+	background: transparent;
+	border: none;
+	background-image: url(../img/like-laranja.png);
+	background-repeat: no-repeat;
+
+}
+
+
+.voltar-ao-topo {
+	width: 980px;
+	height: 40px;
+	text-align: center;
+	margin-top: 50px;
+
+}
+
+.botao {
+	width: 119px;
+	height: 19px;
+	margin: auto;
+	background-image: url(../img/bt-voltar-ao-topo.png);
+	background-repeat: no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-shadow:
+		0px 2px 0px rgba(000,000,000,0.5),
+		0px 1px 0px rgba(255,255,255,0.5);
+	-webkit-box-shadow: 0px 16px 15px -3px rgba(112,58,25,0.7);
+	-moz-box-shadow: 0px 16px 15px -3px rgba(112,58,25,0.7);
+	box-shadow: 0px 5px 1px -3px rgba(112,58,25,0.7);
+}
+
+.botao-a {
+	width: 99px;
+	height: 16px;
+	padding-left: 20px;
+	padding-top: 3px;
+	
+	
+
+}
+
+.botao a {
+	color: #fff;
+}
+
+.facebook-encontre-nos {
+	width: 500px;
+	height: auto;
+	margin: auto;
+	border-left: 1px solid #000;
+	border-bottom:  1px solid #000;
+	border-right: 1px solid #000;
+	margin-bottom: 30px;
+}
+
+.titulo-encontre-nos {
+	height: 30px;
+	background: #edeff4;
+	border-top: 1px solid #2953bc;
+}
+
+.titulo-encontre-nos h1 {
+	font-family: sans-serif;
+	margin: 6px 0 5px 5px;
+}
+
+
+
+
